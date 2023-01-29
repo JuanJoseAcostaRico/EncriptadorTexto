@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link  rel="icon" href="img/favicon.ico" type="image/ico" />
+        <link  rel="icon" href="img/apple-touch-icon.png" type="image/png" />
+        <link  rel="icon" href="img/favicon-16x16.png" type="image/png" />
+        <link  rel="icon" href="img/favicon-32x32.png" type="image/png" />
+        <script src="https://kit.fontawesome.com/1a0d1339d7.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <img class="logo" src="./Imagenes-svg/Logo-alura.svg" alt="logo-alura">
+        </header>
+
+        <main>
+            <section class="primero">
+                <textarea class="text-area" placeholder=" Ingresa el texto aquí"></textarea>
+                <div class="informacion">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p class="texto-aviso">Solo letras minúsculas y sin acentos.</p>
+                </div>
+                
+                <div class="botones">
+                    <button type="submit" class="btn-encriptar">Encriptar</button>
+                    <button type="submit" class="btn-desencriptar">Desencriptar</button>              
+                </div>
+            </section>
+            <section class="segundo">
+                <div class="mensaje-blanco">
+                    <img src="./Imagenes-svg/Muneco-alura.svg" alt="munieco" class="img-munieco">
+                    <div class="texto-blanca">
+                        <p class="texto-uno">Ningún mensaje encontrado</p>
+                        <br>
+                        <p class="texto-dos">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                </div>
+                <textarea type="mensaje" class="evaluar" readonly></textarea>
+                <button type="submit" class="btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+       <footer>
+        <div class="completo-pie">
+            <div class="copy-tex">
+                <br>
+                <p class="derechos">&copy; Copyright 2023 - Juan José Acosta Rico</p>
+            </div>
+            <div class="iconos-pie">
+                <a href="https://www.linkedin.com/in/juanjoseacostarico/" target="_blank">
+                    <img src="./Imagenes-svg/Linkedln.svg" alt="Logo-Linkedin" class="linked">
+                </a>
+                <a href="https://github.com/JuanJoseAcostaRico" target="_blank">
+                    <img src="./Imagenes-svg/GitHub.svg" alt="Logo-Github" class="git">
+                </a>
+                <br>  
+            </div>
+        </div>
+        </footer>
+        <script src="js/codigo.js"></script>
+    </body>
+</html>
